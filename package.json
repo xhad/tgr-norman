@@ -1,0 +1,27 @@
+{
+  "name": "tgr-norman",
+  "version": "1.0.0",
+  "description": "Horangi Norman - Man Made Data Lake",
+  "main": "norman.js",
+  "scripts": {
+    "build": "node ./node_modules/nexe/index.js norman.js",
+    "start": "node norman.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/horangi-ir/tgr-norman.git"
+  },
+  "keywords": [
+    "Huge",
+    "Data"
+  ],
+  "author": "Chad Lynch",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.18.0",
+    "lowdb": "^1.0.0"
+  },
+  "devDependencies": {
+    "nexe": "^2.0.0-rc.34"
+  }
+}
